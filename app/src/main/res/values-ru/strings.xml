@@ -1,0 +1,15 @@
+<resources>
+	<string name="start">Старт</string>
+	<string name="auth_button">Авторизация</string>
+	<string name="create_menu">СОЗДАТЬ</string>
+	<string name="e_mail">Электронная почта</string>
+	<string name="pass">Пароль</string>
+	<string name="enter">Войти</string>
+	<string name="dialog_close">ЗАКРЫТЬ</string>
+	<string name="pass_hint_title">Подсказка по паролю</string>
+	<string name="pass_hint_message">Пароль должен содержать как минимум одну строчную букву,
+		как минимум одну залавную, как минимум одну цифру. Минимальная длина 6 символов.
+		Используется только латиница </string>
+	<string name="snack_message">Сейчас в Москве %1$s, %2$d °C</string>
+	<string name="error_mess">Ошибка загрузки данных погоды</string>
+</resources>

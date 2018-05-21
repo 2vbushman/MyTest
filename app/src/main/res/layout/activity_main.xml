@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:card_view="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/backgroundColor"
+	tools:context=".ui.main.MainActivity">
+
+	<android.support.v7.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_margin="@dimen/fragment_margin"
+		android:background="@android:color/transparent"
+		card_view:cardCornerRadius="0dp"
+		card_view:cardElevation="@dimen/toolbar_elevation">
+
+		<Button
+			android:id="@+id/start_auth"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/button_background"
+			android:paddingBottom="4.5dp"
+			android:paddingTop="5.5dp"
+			android:text="@string/auth_button"
+			android:textColor="@color/backgroundColor" />
+	</android.support.v7.widget.CardView>
+</FrameLayout>
